@@ -1,0 +1,72 @@
+/****** Main Styling ******/
+$clr-bk1: #9BBCE1;
+$clr-bk2: #527AB8;
+$clr-bk3: #0037FF;
+$clr-bk4: #7D8DA4;
+$clr-bk5: #AAB4C3;
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: $clr-bk4;
+}
+
+header {
+	background-color: $clr-bk2;
+	color: $clr-bk1;
+	padding: 10px 10% 10px 10px;
+}
+
+footer {
+	background-color: $clr-bk2;
+	color: $clr-bk3;
+	padding: 10px 10% 10px 10%;
+}
+
+.container {
+	margin: 20px auto 0 auto;
+	display: block;
+}
+
+.card {
+	background-color: $clr-bk1;
+	text-align: center;
+	margin: -10px 10% 0 10%;
+	display: block;
+	border-radius: 25px;
+}
+
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
+
+.clementine-text { /* Styling for the Clementine.js text */
+	padding: 8px;
+	margin: -25px 0 0 0;
+	font-weight: 10;
+	font-size: 32px;
+	color: $clr-bk3;
+}
+
+#grad1 {
+    background: $clr-bk4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($clr-bk5, $clr-bk4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($clr-bk5, $clr-bk4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($clr-bk5, $clr-bk4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($clr-bk5, $clr-bk4); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+    background: $clr-bk5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($clr-bk4, $clr-bk5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($clr-bk4, $clr-bk5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($clr-bk4, $clr-bk5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($clr-bk4, $clr-bk5); /* Standard syntax (must be last) */
+}
+
+

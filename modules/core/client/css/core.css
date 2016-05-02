@@ -1,0 +1,59 @@
+/****** Main Styling ******/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #7D8DA4; }
+
+header {
+  background-color: #527AB8;
+  color: #9BBCE1;
+  padding: 10px 10% 10px 10px; }
+
+footer {
+  background-color: #527AB8;
+  color: #0037FF;
+  padding: 10px 10% 10px 10%; }
+
+.container {
+  margin: 20px auto 0 auto;
+  display: block; }
+
+.card {
+  background-color: #9BBCE1;
+  text-align: center;
+  margin: -10px 10% 0 10%;
+  display: block;
+  border-radius: 25px; }
+
+/****** Logo Div Styling ******/
+img {
+  margin: 20px auto 0 auto;
+  display: block; }
+
+.clementine-text {
+  /* Styling for the Clementine.js text */
+  padding: 8px;
+  margin: -25px 0 0 0;
+  font-weight: 10;
+  font-size: 32px;
+  color: #0037FF; }
+
+#grad1 {
+  background: #7D8DA4;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#AAB4C3, #7D8DA4);
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#AAB4C3, #7D8DA4);
+  /* Standard syntax (must be last) */ }
+
+#grad2 {
+  background: #AAB4C3;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#7D8DA4, #AAB4C3);
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#7D8DA4, #AAB4C3);
+  /* Standard syntax (must be last) */ }
